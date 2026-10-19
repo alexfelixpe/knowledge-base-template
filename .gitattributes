@@ -1,0 +1,4 @@
+# Normalize all text files to LF in the repository, regardless of each
+# contributor's local git config. Line-ending drift can change a pinned
+# file's checksum; this prevents it at the repo level.
+* text=auto
